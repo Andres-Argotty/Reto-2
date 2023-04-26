@@ -31,7 +31,7 @@ function guardarCliente() {
             success: function (respuesta) {  //
                 // Si todo funciona bien, entonces va a mandar una alerta 
                 alert("El cliente "+datos.name+ " se ha creado correctamente")
-                traerDatosCarros(); //Una vez creado el carro, vamos a hacer la solicitud GET para traer los nuevos datos.
+                traerDatosClientes(); //Una vez creado el carro, vamos a hacer la solicitud GET para traer los nuevos datos.
     
                 
             },
