@@ -5,7 +5,7 @@ function traerDatosCarros() {
         dataType: 'json', //Esperamos que nos retorne datos tipo JSON
         success: function (respuesta) {  //
             // Si todo funciona bien, entonces va a ejecutar la función  pintarDatos y va a obtener como parametro la respuesta del get, es decir los objetos que tenemos en la API.
-            pintarDatos(respuesta.items,'brand');
+            pintarDatos(respuesta.items,'brand','car');
 
             
         },
